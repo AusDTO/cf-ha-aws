@@ -1,0 +1,86 @@
+[
+  {
+    "ParameterKey": "00VpcId",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "01IgwId",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "02SSLCertificateARN",
+    "ParameterValue": "arn:aws:acm:ap-southeast-2:************:certificate/********-****-****-****-************"
+  },
+  {
+    "ParameterKey": "03OpsManagerDBName",
+    "ParameterValue": "opsman"
+  },
+  {
+    "ParameterKey": "04RdsUsername",
+    "ParameterValue": "rds"
+  },
+  {
+    "ParameterKey": "05RdsPassword",
+    "ParameterValue": "**********************************"
+  },
+  {
+    "ParameterKey": "06DeploymentUuid",
+    "ParameterValue": "faf2d68c"
+  },
+  {
+    "ParameterKey": "07IamUserAccessKey",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "101Public1Cidr",
+    "ParameterValue": "10.0.0.64/26"
+  },
+  {
+    "ParameterKey": "102Public2Cidr",
+    "ParameterValue": "10.0.0.128/26"
+  },
+  {
+    "ParameterKey": "103Public3Cidr",
+    "ParameterValue": "10.0.0.192/26"
+  },
+  {
+    "ParameterKey": "104App1Cidr",
+    "ParameterValue": "10.0.4.0/22"
+  },
+  {
+    "ParameterKey": "105App2Cidr",
+    "ParameterValue": "10.0.8.0/22"
+  },
+  {
+    "ParameterKey": "106App3Cidr",
+    "ParameterValue": "10.0.12.0/22"
+  },
+  {
+    "ParameterKey": "107Svcs1Cidr",
+    "ParameterValue": "10.0.16.0/22"
+  },
+  {
+    "ParameterKey": "108Svcs2Cidr",
+    "ParameterValue": "10.0.20.0/22"
+  },
+  {
+    "ParameterKey": "109Svcs3Cidr",
+    "ParameterValue": "10.0.24.0/22"
+  },
+  {
+    "ParameterKey": "110Rds1Cidr",
+    "ParameterValue": "10.0.1.64/26"
+  },
+  {
+    "ParameterKey": "111Rds2Cidr",
+    "ParameterValue": "10.0.1.128/26"
+  },
+  {
+    "ParameterKey": "112Rds3Cidr",
+    "ParameterValue": "10.0.1.192/26"
+  },
+  {
+    "ParameterKey": "113SingletonCidr",
+    "ParameterValue": "10.0.2.0/23"
+  }
+]

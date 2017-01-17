@@ -1411,8 +1411,8 @@
       "Condition": "CreateRDS",
       "Properties": {
         "AllocatedStorage": "100",
-        "BackupRetentionPeriod" : "0",
-        "DBInstanceClass": "db.m4.large",
+        "BackupRetentionPeriod" : "7",
+        "DBInstanceClass": "db.m3.large",
         "Engine": "MySQL",
         "EngineVersion": "5.6.27",
         "MultiAZ": "True",

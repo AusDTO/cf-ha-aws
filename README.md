@@ -1,10 +1,12 @@
 CloudFormation template for a Multi-AZ Cloud Foundry deployment to AWS
 
-In a nutshell, a CloudFormation script with a sensible set of defaults that allows for customisation of all network ranges, optional IAM user creation, and basically implements this:
+In a nutshell, a CloudFormation script with a sensible set of defaults and a separate parameters file that allows customisation of all network ranges, optional IAM user creation, and basically implements this:
 
 ![](cf_ha_diagram.png)
 
+To implement this architecture you run the following and watch the outputs tab in the AWS Cloudformation console:
 
-**NON PRODUCTION USE ONLY**
+``` bash
+aws cloudformation create-stack --stack-name prodpcf --capabilities CAPABILITY_IAM --template-body file://pcf-ha-aws-cloudformation.json --parameters file://pcf.params.cfn.json
 
-The RDS database instance deployed by this script is **not** configured for backups. Either modify this template to suit your needs or provision RDS separately and leave the RDS fields in this template blank (so it doesn't create an RDS instance at all).
+```
